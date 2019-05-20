@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MarkovPoems/static/css/main.2556fd39.chunk.css",
+    "main.js": "/MarkovPoems/static/js/main.8c9ab248.chunk.js",
+    "main.js.map": "/MarkovPoems/static/js/main.8c9ab248.chunk.js.map",
+    "runtime~main.js": "/MarkovPoems/static/js/runtime~main.dac9a88b.js",
+    "runtime~main.js.map": "/MarkovPoems/static/js/runtime~main.dac9a88b.js.map",
+    "static/js/2.52a6492a.chunk.js": "/MarkovPoems/static/js/2.52a6492a.chunk.js",
+    "static/js/2.52a6492a.chunk.js.map": "/MarkovPoems/static/js/2.52a6492a.chunk.js.map",
+    "index.html": "/MarkovPoems/index.html",
+    "precache-manifest.2d7b339c5faa6c6e60b6fc62958a8fb9.js": "/MarkovPoems/precache-manifest.2d7b339c5faa6c6e60b6fc62958a8fb9.js",
+    "service-worker.js": "/MarkovPoems/service-worker.js",
+    "static/css/main.2556fd39.chunk.css.map": "/MarkovPoems/static/css/main.2556fd39.chunk.css.map"
+  }
+}
