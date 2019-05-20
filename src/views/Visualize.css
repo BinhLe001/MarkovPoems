@@ -1,0 +1,60 @@
+.Visualize {
+  display: flex;
+  flex-direction: column;
+}
+
+.Visualize-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.Visualize-section {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 5fr;
+}
+
+.Visualize-selections {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.Visualize-parameter {
+  margin: 20px 0px 20px 0px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 2fr;
+}
+
+.Visualize-lengths {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.selected {
+  background: #f3d250;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+}
+
+.selection {
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+}
+
+.selection:hover {
+  cursor: pointer;
+}
+
+.Visualize-plot {
+  height: 360px;
+  width: 560px;
+}
+
+.Visualize-info {
+  padding-top: 80px;
+  font-style: italic;
+  font-size: 16px;
+}

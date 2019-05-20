@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: 16px;
+  color: black;
+  background: white;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.App-header {
+  padding: 15px 0px 15px 0px;
+  margin-bottom: 15px;
+  background: #f78888;
+  font-size: 20px;
+}
+
+.App-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 0px 20px 0px 20px;
+}
+
+.App-view {
+  border: 3px solid #f3d250;
+  border-radius: 10px;
+  padding: 15px 20px 15px 20px;
+}

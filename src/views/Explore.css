@@ -1,0 +1,92 @@
+.Explore {
+  display: flex;
+  flex-direction: column;
+}
+
+.Explore-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.Explore-section {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 5fr;
+}
+
+.Explore-selections {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.selected {
+  background: #f3d250;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selection {
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #5da2d5;
+}
+
+.selection:hover {
+  cursor: pointer;
+}
+
+.Explore-words {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px 0px 20px 0px;
+}
+
+.Words-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.Words-input {
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  background: #f3d250;
+  font-size: 12px;
+}
+
+.Words-input:focus,
+input:focus {
+  outline: none;
+}
+
+.Words-submit {
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  background: #f78888;
+}
+
+.Words-submit:hover {
+  cursor: pointer;
+}
+
+.Explore-poem {
+  background: white;
+  height: 320px;
+  overflow-y: scroll;
+  color: black;
+  padding: 25px 40px 25px 40px;
+}
+
+.poem-info {
+  font-style: italic;
+  padding-top: 55px;
+  font-size: 16px;
+}
